@@ -8,3 +8,15 @@ npm i @nestjs/mapped-types
 
 
 npm i --save class-validator class-transformer
+
+npx prisma migrate dev -name init
+
+npx prisma migrate dev
+
+npx prisma generate
+
+
+nest g module database
+nest g service database
+
+nest g resource employees
