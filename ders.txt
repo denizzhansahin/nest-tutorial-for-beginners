@@ -20,3 +20,9 @@ nest g module database
 nest g service database
 
 nest g resource employees
+
+
+npm i @nestjs/throttler
+
+nest g module my-logger
+nest g service my-logger
